@@ -21,8 +21,11 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TableLayout
-        android:layout_width="413dp"
-        android:layout_height="79dp"
+        android:layout_width="342dp"
+        android:layout_height="71dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginEnd="3dp"
+        android:layout_marginBottom="20dp"
         android:weightSum="1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -32,12 +35,13 @@
 
         <TableRow
             android:layout_width="match_parent"
-            android:layout_height="65dp">
+            android:layout_height="64dp">
 
             <ImageButton
                 android:id="@+id/btnSmart"
-                android:layout_width="20dp"
-                android:layout_height="150px"
+                android:layout_width="10dp"
+                android:layout_height="50dp"
+                android:layout_margin="1dp"
                 android:layout_weight="1"
                 android:backgroundTint="#00FFFFFF"
                 android:scaleType="fitCenter"
@@ -46,7 +50,8 @@
             <ImageButton
                 android:id="@+id/btnProfile"
                 android:layout_width="10dp"
-                android:layout_height="150px"
+                android:layout_height="50dp"
+                android:layout_margin="1dp"
                 android:layout_weight="1"
                 android:backgroundTint="#00FFFFFF"
                 android:scaleType="fitCenter"
@@ -54,8 +59,9 @@
 
             <ImageButton
                 android:id="@+id/btnService"
-                android:layout_width="20dp"
-                android:layout_height="150px"
+                android:layout_width="10dp"
+                android:layout_height="50dp"
+                android:layout_margin="1dp"
                 android:layout_weight="1"
                 android:backgroundTint="#00FFFFFF"
                 android:scaleType="fitCenter"
@@ -63,8 +69,9 @@
 
             <ImageButton
                 android:id="@+id/btnHome"
-                android:layout_width="20dp"
-                android:layout_height="150px"
+                android:layout_width="10dp"
+                android:layout_height="50dp"
+                android:layout_margin="1dp"
                 android:layout_weight="1"
                 android:backgroundTint="#00FFFFFF"
                 android:scaleType="fitCenter"
