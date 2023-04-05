@@ -1,0 +1,15 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <solid android:color="#00000000" />
+    <!-- Sets the background color to transparent -->
+
+    <stroke
+        android:width="0dp"
+        android:color="#00000000" />
+    <!-- Sets the stroke width to 0dp (i.e., no stroke) and the stroke color to transparent -->
+
+    <corners android:radius="8dp" />
+    <!-- Rounds the corners of the shape -->
+
+</shape>
