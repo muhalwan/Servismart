@@ -24,18 +24,16 @@
 
     <TextView
         android:id="@+id/textView3"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="40dp"
         android:layout_marginTop="32dp"
         android:text="Masukkan nomor HP Anda"
         android:textColor="@color/black"
         android:textSize="20sp"
         android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.092"
-        app:layout_constraintStart_toStartOf="parent"
+        android:gravity="center"
         app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
 
     <ImageView
         android:id="@+id/imageView"
@@ -49,28 +47,36 @@
 
     <EditText
         android:id="@+id/txtNomorHP"
-        android:layout_width="278dp"
+        android:layout_width="match_parent"
         android:layout_height="40dp"
-        android:layout_margin="1dp"
         android:layout_marginStart="40dp"
-        android:layout_weight="2"
         android:background="@drawable/edittext"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp"
+        android:gravity="center_vertical"
+        android:textSize="16sp"
+        android:layout_gravity="center"
         app:layout_constraintBottom_toBottomOf="@+id/imageView"
         app:layout_constraintEnd_toEndOf="@+id/imageView"
         app:layout_constraintStart_toStartOf="@+id/imageView"
         app:layout_constraintTop_toTopOf="@+id/imageView" />
 
+
+
     <TextView
         android:id="@+id/textView6"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:text="Nomor HP"
+        android:textSize="15sp"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textView3"
         android:layout_marginStart="40dp"
         android:layout_marginTop="40dp"
-        android:text="Nomor HP"
-        android:textColor="@color/black"
-        android:textSize="15dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+        android:layout_marginEnd="40dp"/>
+
 
     <Button
         android:id="@+id/btnLanjutkan"
